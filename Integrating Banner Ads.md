@@ -13,7 +13,7 @@ Step1. Declare an instance variable for banner in your code like this:
 
 Step2. Using the listener interface:
 
-'PingStartBanner' provides a listener interface, 'BannerListener', which you can use to stay informed about ad lifecycle events. 'BannerAdListener' includes the following methods:
+`PingStartBanner` provides a listener interface, `BannerListener`, which you can use to stay informed about ad lifecycle events. `BannerAdListener` includes the following methods:
         
         //Sent when the banner has successfullyretrieved an ad.
         public void onAdLoaded(View view);
@@ -23,7 +23,7 @@ Step2. Using the listener interface:
         
         //Sent when the user has tapped on the banner.
         public void onAdClicked();
-To listen for events, you'll need to use the method 'setAdListener(BannerListener listener)' in PingStartBanner as it's being created(see Step 1);
+To listen for events, you'll need to use the method, `setAdListener(BannerListener listener)`, in `PingStartBanner` as it's being created(see Step 1);
 
         banner.setAdListener(BannerListener listener);
         
