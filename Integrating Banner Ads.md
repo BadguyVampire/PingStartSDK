@@ -4,14 +4,14 @@ Banner ads usually appear at the top or bottom of your app's screen. Adding one 
 ##### Prerequisites:
 Before integrating banner ads in your app, you'll need to go through the steps in our [Getting Start Guide](http://baidu.com) to create an account on PingStart and integrate the SDK into your project.
 ##### Load banner ads in your app:
-step1. Declare an instance variable for banner in your code like this：
+Step1. Declare an instance variable for banner in your code like this:
 
         PingStartBanner banner = new PingStartBanner(Context context,String YOUR_PUBLISHER_ID,String YOUR_SLOT_ID);
 ###### Note:
 1. YOUR_PUBLISHER_ID is necessary and can't be null or a empty character, it's the  unique identification of your app, you can get it when you create an account on PingStart.
 2. YOUR_SLOT_ID is also necessary and can't be null or a empty character, it's the unique identification which ads integrated in your app, you can get it when you create an ad unit. 
 
-step2. Using the listener interface:
+Step2. Using the listener interface:
 
 'PingStartBanner' provides a listener interface, 'BannerListener', which you can use to stay informed about ad lifecycle events. 'BannerAdListener' includes the following methods:
         
