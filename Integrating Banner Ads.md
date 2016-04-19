@@ -8,12 +8,12 @@ Step1. Declare an instance variable for banner in your code like this:
 
         PingStartBanner banner = new PingStartBanner(Context context,String YOUR_PUBLISHER_ID,String YOUR_SLOT_ID);
 ###### Note:
-1. YOUR_PUBLISHER_ID is necessary and can't be null or a empty character, it's the  unique identification of your app, you can get it when you create an account on PingStart.
-2. YOUR_SLOT_ID is also necessary and can't be null or a empty character, it's the unique identification which ads integrated in your app, you can get it when you create an ad unit. 
+1. YOUR_PUBLISHER_ID is necessary and can't be null or an empty character, it's the  unique identification of your app, you can get it when you create an account on PingStart.
+2. YOUR_SLOT_ID is also necessary and can't be null or an empty character, it's the unique identification which ads integrated in your app, you can get it when you create an ad unit. 
 
 Step2. Using the listener interface:
 
-`PingStartBanner` provides a listener interface, `BannerListener`, which you can use to stay informed about ad lifecycle events. `BannerAdListener` includes the following methods:
+`PingStartBanner` provides a listener interface, `BannerListener`, which you can use to stay informed about ad lifecycle events. `BannerListener` includes the following methods:
         
         //Sent when the banner has successfullyretrieved an ad.
         public void onAdLoaded(View view);
