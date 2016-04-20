@@ -12,6 +12,7 @@ No changes are required to any of other code! Be sure to visit the PingStart das
 ## Unsupported
 ### Writing Custom Events for Unsupported Ad Networks(Banner and Interstitial)
 Custom events allow you to execute any of your application code from the PingStart web interface
+
 #### Quick Start for Banners
 1. Create a subclass of *`CustomEventBanner`* in your application.
 2. Override the *`LoadBanner(Context,Map,CustomEventBannerListener)`* method and implement code that requests an ad.
