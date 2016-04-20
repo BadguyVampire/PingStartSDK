@@ -6,7 +6,7 @@ We offer pre-built adaptors for [AdColony](http://baidu.com), [AdMob](http://bai
 ### Integration Guide
 ##### 1. Add the custom event jar to your project
 * We pre-built adaptors for what we supported mediations, it's in the form of Jar,download the jar which ads you want to include into your app,you can get them [here]().
-* Integrating the SDK that we supported with their integrating guide, and set up the corresponding network campaigns and target the proper ad units at th corresponding dashboard.
+* Integrating the SDK that we supported with their integrating guide, and set up the corresponding network campaigns and target the proper ad units at the corresponding dashboard.
 
 ##### 2. Display banner ads and interstitials as usual
 No changes are required to any of other code! Be sure to visit the PingStart dashboard to set up the corresponding network campaigns and target the proper ad units.
