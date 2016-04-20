@@ -25,6 +25,7 @@ Custom events allow you to execute any of your application code from the PingSta
 7. Finally,
    
    Once you've completed these steps, the PingStart SDK will be able to cause your *`CustomEventBanner`* subclass to be instantiated at the proper time while your is running. You do not need to instantiate any of these subclasses in your application code. *Note:* the PingStart SDK will cause a new CustomEventBanner object to be instantiated on every ad call, so you can safely make changes to the custom event object's internal state between calls.
+
 #### Quick Start for Interstitials
 1. Create a subclass of *`CustomEventInterstitial`* in your application.
 2. Override the *`loadInterstitial(Context, Map, CustomEventInterstitialListener)`* method and implement code that requests an interstitial.
