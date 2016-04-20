@@ -43,4 +43,4 @@ Custom events allow you to execute any of your application code from the PingSta
 7. Override the *`destroy()`* method of *`CustomEventInterstitial`* if your custom event requires any sort of cleanup.
 8. Finally,
    
-   Once you've completed these steps, the PingStart SDK will be able to cause your *`CustomEventInterstitial`* subclass to be instantiated at the proper time while your application is running. You do not need to instantiate any of these subclassed in your application code. *Note:* the PingStart SDK will cause a new *`CUstomEventInterstitial`* object ti be instantiated on every ad call, so youcan safely make changes to the custom event object's internal state between calls.
+   Once you've completed these steps, the PingStart SDK will be able to cause your *`CustomEventInterstitial`* subclass to be instantiated at the proper time while your application is running. You do not need to instantiate any of these subclassed in your application code. *Note:* the PingStart SDK will cause a new *`CUstomEventInterstitial`* object ti be instantiated on every ad call, so you can safely make changes to the custom event object's internal state between calls.
